@@ -1,0 +1,35 @@
+@media (max-width: 90em) {
+  .main-container {
+    height: 100%;
+  }
+  .section {
+    max-width: 38rem;
+    padding: 4rem;
+  }
+
+  .title-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .card-box {
+    max-width: 30rem;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    grid-column: 1/-1;
+    grid-row: auto;
+  }
+}
